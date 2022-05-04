@@ -1,0 +1,40 @@
+@import "vars";
+
+/*Blocks*/
+@import "container";
+@import "btn";
+@import "header";
+@import "intro";
+@import "nav";
+@import "portfolio";
+@import "social";
+@import "user";
+@import "work";
+@import "works";
+
+/*Blocks Education*/
+@import "education/certificates.scss";
+@import "education/html_academy.scss";
+@import "education/freelancer.scss";
+@import "education/itvdn.scss";
+
+
+/*Blocks About-me*/
+@import "about_me/title.scss";
+@import "about_me/university.scss";
+@import "about_me/horodok.scss";
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}

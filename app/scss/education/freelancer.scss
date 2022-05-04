@@ -1,0 +1,29 @@
+.freelancer {
+    // .freelancer_blog-text
+    &_blog-text {
+        padding-bottom: 50px;
+        h4{
+            padding-bottom: 50px;
+            text-align: center;
+        }
+    }
+    // .freelancer_blog-img
+    &_blog-img {
+        text-align: center;
+        padding-bottom: 100px;
+        img{
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        figcaption{
+            text-align: center;
+            font-size: 12px;
+        }
+    }
+}
+
+@media (min-width: 320px ) and (max-width: 600px){
+    .freelancer_blog-img{
+        display: none;
+    }
+}

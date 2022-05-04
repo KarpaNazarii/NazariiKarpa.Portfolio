@@ -1,0 +1,39 @@
+
+.user{
+    display: flex;
+}
+
+.user_avatar{
+    width: 57px;
+    height: 57px;
+
+    img{
+        border-radius: 50%;
+    }
+}
+
+.user_content{
+    padding-left: 9px;
+}
+
+.user_name{
+    margin-bottom: 3px;
+
+    font-size: 1.06rem;
+    color: $black;
+    font-weight: 700;
+    line-height: 1.2rem;
+}
+
+.user_prof{
+    font-size: 0.8rem;
+    color: fade($black, 70%);
+}
+
+@media (min-width: 0px) and (max-width: 1000px){
+    .user{
+        display: flex;
+        margin-bottom: 50px;
+    }
+}
+

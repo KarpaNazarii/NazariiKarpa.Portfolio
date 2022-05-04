@@ -1,0 +1,70 @@
+.university {
+    // .university_title
+    &_title {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    // .university_blog
+    &_blog {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 100px;
+    }
+    // .university_blog-text
+    &_blog-text {
+        width: 40%;
+    }
+}
+
+@media (min-width: 600px ) and (max-width: 800px){
+    .university_blog-logo{
+        text-align: right;
+        .social_link{
+            img{
+                width: 80%;
+            }
+        }
+    }
+    .university_blog-text{
+        width: 100%;
+    }
+}
+
+@media (min-width: 480px ) and (max-width: 600px){
+    .university_blog{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .university_blog-text{
+        width: 100%;
+    }
+    .university_blog-logo{
+        text-align: right;
+        .social_link{
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (min-width: 320px ) and (max-width: 480px){
+    .university_blog{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 60px;
+
+    }
+    .university_blog-text{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .university_blog-logo{
+        text-align: center;
+    }
+
+}

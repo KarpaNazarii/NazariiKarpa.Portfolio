@@ -1,0 +1,45 @@
+.itvdn {
+    padding-bottom: 200px;
+    // .itvdn_title
+    &_title{
+        text-align: center;
+    }
+    // .itvdn_blog
+    &_blog {
+        padding-top: 50px;
+        h4{
+            text-align: center;
+        }
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    // .itvdn_blog-text
+    &_blog-text {
+        width: 40%;
+    }
+    // .itvdn_blog-img
+    &_blog-img {
+        figcaption{
+            text-align: center;
+            font-size: 12px;
+        }
+    }
+}
+
+
+@media (min-width: 320px ) and (max-width: 600px){
+    .itvdn_blog-text{
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    
+    .itvdn_blog{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .itvdn_blog-img{
+        text-align: center;
+    }
+}

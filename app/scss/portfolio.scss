@@ -1,0 +1,50 @@
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.portfolio_col{
+    width: 300px;
+}
+
+@media (max-width: 800px){
+    .portfolio{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .portfolio_col{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 600px){
+    .portfolio{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .portfolio_col{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 400px){
+    .portfolio{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .portfolio_col{
+        margin-bottom: 30px;
+    }
+}

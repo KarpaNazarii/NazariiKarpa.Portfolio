@@ -1,0 +1,57 @@
+.horodok {
+    padding-bottom: 200px;
+    text-align: center;
+    // .horodok_title
+    &_title {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    // .horodok_blog
+    &_blog {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    // .horodok_blog-text
+    &_blog-text {
+        width: 40%;
+        text-align: left;
+    }
+    // .horodok_blog-images
+    &_blog-images {
+        a{
+            text-decoration: none;
+        }
+    }
+}
+
+
+
+@media (min-width: 320px ) and (max-width: 480px){
+    .horodok {
+        padding-bottom: 200px;
+        text-align: center;
+        // .horodok_title
+        &_title {
+            text-align: center;
+            padding-bottom: 30px;
+        }
+        // .horodok_blog
+        &_blog {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        // .horodok_blog-text
+        &_blog-text {
+            width: 100%;
+            text-align: center;
+        }
+        // .horodok_blog-images
+        &_blog-images {
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}
